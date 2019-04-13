@@ -8,7 +8,7 @@
 
 </listeners>
 <parameter name="grid" value="no"/>
-  <test name="Test on firefox">
+  <test name="Test on Firefox">
   <parameter name="browser" value="firefox"/>
     <classes>
       <!-- name="test.CreateAccountTest"-->
