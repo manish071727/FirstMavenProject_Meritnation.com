@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="99006" started-at="2018-07-02T05:18:09Z" finished-at="2018-07-02T05:19:48Z">
+    <groups>
+    </groups>
+    <test name="Test on firefox" duration-ms="99006" started-at="2018-07-02T05:18:09Z" finished-at="2018-07-02T05:19:48Z">
+      <class name="test.LoginPageTestWithPOM">
+        <test-method status="PASS" signature="initializeDriver()[pri:0, instance:test.LoginPageTestWithPOM@1d7a715]" name="initializeDriver" is-config="true" duration-ms="31" started-at="2018-07-01T22:18:09Z" finished-at="2018-07-01T22:18:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDriver -->
+        <test-method status="PASS" signature="openBrowser(java.lang.String, java.lang.String)[pri:0, instance:test.LoginPageTestWithPOM@1d7a715]" name="openBrowser" is-config="true" duration-ms="8980" started-at="2018-07-01T22:18:09Z" finished-at="2018-07-01T22:18:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[no]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="LoginToSite(java.lang.String, java.lang.String)[pri:0, instance:test.LoginPageTestWithPOM@1d7a715]" name="LoginToSite" duration-ms="42383" started-at="2018-07-01T22:18:18Z" data-provider="getLoginCredentials" finished-at="2018-07-01T22:19:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[manish0727@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Manish123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginToSite -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:test.LoginPageTestWithPOM@1d7a715]" name="closeBrowser" is-config="true" duration-ms="1202" started-at="2018-07-01T22:19:00Z" finished-at="2018-07-01T22:19:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="openBrowser(java.lang.String, java.lang.String)[pri:0, instance:test.LoginPageTestWithPOM@1d7a715]" name="openBrowser" is-config="true" duration-ms="7688" started-at="2018-07-01T22:19:02Z" finished-at="2018-07-01T22:19:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[no]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="LoginToSite(java.lang.String, java.lang.String)[pri:0, instance:test.LoginPageTestWithPOM@1d7a715]" name="LoginToSite" duration-ms="37615" started-at="2018-07-01T22:19:09Z" data-provider="getLoginCredentials" finished-at="2018-07-01T22:19:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sunaina@test.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345678]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginToSite -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:test.LoginPageTestWithPOM@1d7a715]" name="closeBrowser" is-config="true" duration-ms="1014" started-at="2018-07-01T22:19:47Z" finished-at="2018-07-01T22:19:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- test.LoginPageTestWithPOM -->
+    </test> <!-- Test on firefox -->
+  </suite> <!-- Suite -->
+</testng-results>

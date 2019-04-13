@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
+  <parameter name="grid" value="no"/>
+  <parameter name="browser" value="firefox"/>
+  <listeners>
+    <listener class-name="utility.ScreenshotOnFailure"/>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+  </listeners>
+  <test name="Test on firefox">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="test.LoginPageTestWithPOM"/>
+    </classes>
+  </test> <!-- Test on firefox -->
+</suite> <!-- Failed suite [Suite] -->
